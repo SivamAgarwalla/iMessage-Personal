@@ -20,7 +20,7 @@
   cursor: pointer;
   margin: 10px;
   width: 50%;
-  height: 10px;
+  height: 5px;
 }
 
 .sidebar__input {
@@ -38,6 +38,10 @@
   background: transparent;
   outline: none;
   margin-left: 3px;
+}
+
+.sidebar__logoutButton {
+  padding-left: 0px !important;
 }
 
 .sidebar__chats {
