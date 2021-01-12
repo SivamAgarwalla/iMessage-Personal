@@ -40,10 +40,6 @@
   margin-left: 3px;
 }
 
-.sidebar__logoutButton {
-  padding-left: 0px !important;
-}
-
 .sidebar__chats {
   overflow: scroll;
   color: #d4d4d4;
