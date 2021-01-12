@@ -10,7 +10,7 @@
   display: flex;
   padding: 10px;
   justify-content: space-between;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid grey;
   background-color: #232323;
 }
 
@@ -28,8 +28,21 @@
 }
 
 .chat__messages {
-  background-color: '#202223';
+  background-color: #1b1d1e;
+  border-bottom: 1px solid lightgray;
   flex: 1;
+  overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chat__messages::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat__messages {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .chat__input {

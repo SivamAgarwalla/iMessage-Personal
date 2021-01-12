@@ -25,4 +25,7 @@
   position: absolute;
   top: 5px;
   right: 0;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
 }
